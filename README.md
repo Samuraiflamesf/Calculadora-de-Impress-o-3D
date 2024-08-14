@@ -10,9 +10,10 @@ Este projeto é uma aplicação simples desenvolvida em Python usando o framewor
 - Interface simples e intuitiva, com as opções na barra lateral.
 
 ## Como Executar
-1. **Clone o repositório**:
-2. Navegue até a pasta do projeto
-3. Instale as dependências:
+1. Acesse o link (Calculadora de Impressão 3D)[]
+2. **Clone o repositório**:
+3. Navegue até a pasta do projeto
+4. Instale as dependências:
 ```pip install streamlit```
-4. Execute a aplicação:
+5. Execute a aplicação:
 ```streamlit run calc_valor_3d.py```
