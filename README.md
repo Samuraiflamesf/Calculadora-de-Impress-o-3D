@@ -10,8 +10,7 @@ Este projeto é uma aplicação simples desenvolvida em Python usando o framewor
 - Interface simples e intuitiva, com as opções na barra lateral.
 
 ## Como Executar
-1. Acesse o link (Calculadora de Impressão 3D)[]
-2. **Clone o repositório**:
+1. Acesse o link (Calculadora de Impressão 3D)[https://3dprint.streamlit.app/] ou **Clone o repositório**:
 3. Navegue até a pasta do projeto
 4. Instale as dependências:
 ```pip install streamlit```
