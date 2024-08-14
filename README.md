@@ -15,4 +15,4 @@ Este projeto é uma aplicação simples desenvolvida em Python usando o framewor
 4. Instale as dependências:
 ```pip install streamlit```
 5. Execute a aplicação:
-```streamlit run calc_valor_3d.py```
+```streamlit run app.py```
