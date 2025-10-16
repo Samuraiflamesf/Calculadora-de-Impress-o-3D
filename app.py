@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("Calculadora de Impressão 3D")
 
-materials = {"PLA": 60.0, "ABS": 80.0, "PETG": 100.0}
+materials = {"PLA": 80.0, "ABS": 70.0, "PETG": 100.0}
 
 # Seção à esquerda
 with st.sidebar:
@@ -16,9 +16,9 @@ with st.sidebar:
     st.write(f"Preço do kWh, em salvador valor é R$ 1,00")
 
     printer_power = st.number_input(
-        "Consumo médio da impressora 3D (em watts)", min_value=0, value=110, step=10
+        "Consumo médio da impressora 3D (em watts)", min_value=0, value=60, step=10
     )
-    st.write(f"Ender 3 - 110W // Prusa i3 MK3 - 180W")
+    st.write(f"A1 Mini - 60W // Ender 3 - 110W // Prusa i3 MK3 - 180W")
 
     profit_margin = st.number_input(
         "Margem de lucro (%)", min_value=0.0, value=100.0, step=10.0
@@ -29,7 +29,7 @@ weight = st.number_input(
     "Peso da peça (gramas)", min_value=0.0, value=100.0, step=1.0
 )
 printing_time = st.number_input(
-    "Tempo de impressão (horas)", min_value=0.0, value=2.0, step=0.1
+    "Tempo de impressão (horas)", min_value=0.0, value=2.0, step=1.0
 )
 
 electricity_cost = (printer_power / 1000) * energy_rate * printing_time
